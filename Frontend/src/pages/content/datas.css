@@ -1,0 +1,38 @@
+.admincon {
+    margin: auto;
+    width: 80%;
+  }
+  
+  .table-container {
+    height: 500px; /* Adjust the height as needed */
+    overflow: auto;
+    margin: auto; /* Center the table horizontally */
+  }
+  
+  .table {
+    width: 100%; /* Make the table fill the container */
+    table-layout: fixed; /* Fix the table layout to prevent it from expanding beyond its container */
+    border-collapse: collapse; /* Collapse table borders */
+  }
+  
+  #attend-th, #attend-td {
+    padding: 10px; /* Add padding to table cells */
+    text-align: center; /* Center-align text */
+    border: 1px solid black; /* Add black border */
+  }
+  
+  #attend-th {
+    background-color: rgb(178, 241, 178); /* Set background color for header cells */
+  }
+
+  .search-container {
+    margin-bottom: 30px; /* Add margin at the bottom of the search container */
+  }
+  input[type="text"] {
+    padding: 8px; /* Add padding to the input field */
+    margin-right: 10px; /* Add margin to the right of the input field */
+    border: 1px solid #ccc; /* Add border to the input field */
+    border-radius: 4px; /* Add border-radius to the input field */
+    box-sizing: border-box; /* Ensure padding and border are included in the input's total width */
+    font-size: 16px; /* Set font size */
+  }

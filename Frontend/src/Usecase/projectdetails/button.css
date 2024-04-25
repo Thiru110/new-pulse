@@ -1,0 +1,93 @@
+/* #reg-btn{
+   width: 110px;
+   height: 35px;
+   position: absolute;
+   bottom: 50px;
+   left: 290px;
+   border-radius: 5px;
+   border-color: rgb(14, 223, 39);
+   border-style: groove;
+   font-weight: 500;
+   cursor: pointer;
+   background-color: rgb(21, 204, 30);
+   color: rgb(249, 253, 253);
+   letter-spacing: 1px;
+   
+}
+#reg-btn:hover{
+   background: rgb(9, 230, 20);
+    box-shadow: 0 0 5px  rgb(24, 192, 33),0 0 25px  rgb(24, 192, 33),0 0 50px  rgb(24, 192, 33),0 0 200px  rgb(24, 192, 33);
+   
+} */
+.cta {
+   position: relative;
+   margin: auto;
+   padding: 12px 18px;
+   transition: all 0.2s ease;
+   border: none;
+   background: none;
+   cursor: pointer;
+ }
+ 
+ .cta:before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 10px;
+   display: block;
+   border-radius: 50px;
+  
+   /* #b1dae7 */
+   background: #1ed64c;
+   width: 130px;
+   height: 40px;
+   transition: all 0.3s ease;
+ }
+ 
+ .cta span {
+   position: relative;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 11px;
+   font-weight: 700;
+   letter-spacing: 2px;
+   color: #ffffff;
+   text-transform: uppercase;
+   position: relative;
+   left: 5px;
+   bottom: -1px;
+ }
+ 
+ .cta svg {
+   position: relative;
+   top: 3px;
+   right: 10px;
+   margin-left: 20px;
+   fill: none;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke: #fbfbfc;
+   stroke-width: 2;
+   transform: translateX(-5px);
+   transition: all 0.3s ease;
+ }
+ 
+ .cta:hover:before {
+   width: 100%;
+   background: #0df748 ;
+   
+   /* #36ca36  */
+ }
+ 
+ .cta:hover svg {
+   transform: translateX(0);
+ }
+ 
+ .cta:active {
+   transform: scale(0.95);
+ }
+ #btnn{
+  position: absolute;
+  bottom:125px;
+  left:315px;
+ }
+ 

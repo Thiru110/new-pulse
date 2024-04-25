@@ -1,0 +1,70 @@
+/* .msg{
+  width: ;
+} */
+.msg img {
+  width: 700px;
+  animation: slideDown 2s ease-out forwards;
+}
+@keyframes slideDown {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.login {
+  height: 100%;
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.login .activity {
+  width: 400px;
+  height: 250px;
+  background-color: #e1dede;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* Align children to the top */
+}
+.login .activity:hover {
+  box-shadow: 0px 0px 9px 0px #999696;
+}
+
+.login-message {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+
+  border-radius: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 37px;
+}
+
+.comment-input {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.comment-input:hover {
+  border: 1px solid black;
+}
+input[type="text"]:focus {
+  outline: none;
+  border: 2px solid #3c9ab0;
+}
+
+.logo-wel {
+  height: inherit;
+  width: inherit;
+  object-fit: contain;
+}
